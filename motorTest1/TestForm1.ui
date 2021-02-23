@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestForm1</class>
+ <widget class="QWidget" name="TestForm1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1322</width>
+    <height>810</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TestForm1</string>
+  </property>
+  <widget class="QPushButton" name="btnGoFrm2">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>750</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>界面2</string>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>901</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tabPortSet">
+    <attribute name="title">
+     <string>端口设置</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>181</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>一号电机</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>端口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cmbMotor1Port"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbVE1">
+         <property name="value">
+          <double>10.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>加速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbAC1">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>减速比</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbReRate1">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btnOpenMotor1">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>150</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>打开串口</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblProtState1">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(127, 127, 127);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>160</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_12">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btnGoLeft1">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>《</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spbDistance1">
+         <property name="maximum">
+          <number>100000</number>
+         </property>
+         <property name="value">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnGoRight1">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>》</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>30</y>
+       <width>181</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>二号电机</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>端口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cmbMotor2Port"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbVE2">
+         <property name="value">
+          <double>10.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>加速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbAC2">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>减速比</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbReRate2">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btnOpenMotor2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>150</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>打开串口</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblProtState2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(127, 127, 127);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>160</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_17">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btnGoLeft2">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>《</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spbDistance2">
+         <property name="maximum">
+          <number>100000</number>
+         </property>
+         <property name="value">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnGoRight2">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>》</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>30</y>
+       <width>181</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>三号电机</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_13">
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>端口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cmbMotor3Port"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_11">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_14">
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbVE3">
+         <property name="value">
+          <double>10.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_15">
+       <item>
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>加速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbAC3">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>减速比</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbReRate3">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btnOpenMotor3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>150</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>打开串口</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblProtState3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(127, 127, 127);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_14">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>160</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_18">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btnGoLeft3">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>《</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spbDistance3">
+         <property name="maximum">
+          <number>100000</number>
+         </property>
+         <property name="value">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnGoRight3">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>》</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>370</y>
+       <width>181</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>四号电机</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget_16">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_19">
+       <item>
+        <widget class="QLabel" name="label_19">
+         <property name="text">
+          <string>端口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cmbMotor4Port"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_17">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_20">
+       <item>
+        <widget class="QLabel" name="label_20">
+         <property name="text">
+          <string>速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbVE4">
+         <property name="value">
+          <double>10.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_18">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_21">
+       <item>
+        <widget class="QLabel" name="label_21">
+         <property name="text">
+          <string>加速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbAC4">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>减速比</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbReRate4">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btnOpenMotor4">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>150</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>打开串口</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblProtState4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(127, 127, 127);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>160</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_25">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btnGoLeft4">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>《</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spbDistance4">
+         <property name="maximum">
+          <number>100000</number>
+         </property>
+         <property name="value">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnGoRight4">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>》</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_7">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>370</y>
+       <width>181</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>五号电机</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget_19">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_22">
+       <item>
+        <widget class="QLabel" name="label_22">
+         <property name="text">
+          <string>端口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cmbMotor5Port"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_23">
+       <item>
+        <widget class="QLabel" name="label_23">
+         <property name="text">
+          <string>速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbVE5">
+         <property name="value">
+          <double>10.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_21">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_24">
+       <item>
+        <widget class="QLabel" name="label_24">
+         <property name="text">
+          <string>加速度</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbAC5">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>120</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>减速比</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDoubleSpinBox" name="spbReRate5">
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btnOpenMotor5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>150</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>打开串口</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblProtState5">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(127, 127, 127);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_22">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>160</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_26">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btnGoLeft5">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>《</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spbDistance5">
+         <property name="maximum">
+          <number>100000</number>
+         </property>
+         <property name="value">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnGoRight5">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>》</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_12">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>460</y>
+       <width>311</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>输出</string>
+     </property>
+     <widget class="QPushButton" name="btnSetOutputHigh">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置输入为1</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnSetOutputLow">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>100</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置输入为0</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_27">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>191</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_30">
+       <item>
+        <widget class="QLabel" name="label_26">
+         <property name="text">
+          <string>输入端口选择</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cmbOutputPortNum">
+         <item>
+          <property name="text">
+           <string>Y1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Y2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Y3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Y4</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_28">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>191</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_31">
+       <item>
+        <widget class="QLabel" name="label_27">
+         <property name="text">
+          <string>电机编号</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spbMotorIndex2">
+         <property name="maximum">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_11">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>350</y>
+       <width>261</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>输入</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget_23">
+      <property name="geometry">
+       <rect>
+        <x>21</x>
+        <y>30</y>
+        <width>221</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_16">
+       <item>
+        <widget class="QLabel" name="lblInputState8">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblInputState7">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblInputState6">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblInputState5">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblInputState4">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblInputState3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblInputState2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblInputState1">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(127, 127, 127);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_24">
+      <property name="geometry">
+       <rect>
+        <x>23</x>
+        <y>60</y>
+        <width>221</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_27">
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>电机编号</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spbMotorIndex">
+         <property name="maximum">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnReadInput">
+         <property name="text">
+          <string>读取输入</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_13">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>30</y>
+       <width>241</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>力传感器</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget_25">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_28">
+       <item>
+        <widget class="QLabel" name="label_16">
+         <property name="text">
+          <string>端口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="cmbForceSensorPort"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_26">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>220</y>
+        <width>186</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_29">
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>传感器读数</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblForceSensorVal">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btnOpenForceSensor">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>打开串口</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblForceSensorState">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(127, 127, 127);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnOpenForceSensor_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>170</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置力传感器</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>滤波类型</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spboxFilterStrength">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>130</y>
+        <width>71</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>50</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>130</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>滤波强度</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comBoxFilterType">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>100</y>
+        <width>151</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>无滤波器</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>平均值滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>中位值滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>一阶滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>滑动平均滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>中位值平均滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>滑动中位值平均滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>平均值滤波+一阶滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>中位值滤波+一阶滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>滑动平均滤波+一阶滤波</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>中位值平均滤波+一阶滤波</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="btnReadForceSensor">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>270</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设置力传感器</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>单轴运动</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>191</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>一号电机</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>75</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>30</y>
+       <width>191</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>二号电机</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>75</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_8">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>30</y>
+       <width>191</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>三号电机</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>75</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>191</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>四号电机</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <spacer name="verticalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>75</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_10">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>190</y>
+       <width>191</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>五号电机</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <spacer name="verticalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>75</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>同步运动</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>位操作</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>力传感器</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btnSaveParam">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>750</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存参数</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_14">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>60</y>
+     <width>291</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>同步运动</string>
+   </property>
+   <widget class="QPushButton" name="btnPullLiqiud">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>抽液</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPullLiqiud_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>抽液2</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spbMotorTime">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>999999</number>
+    </property>
+    <property name="value">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>110</y>
+      <width>54</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>次数</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>54</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>距离</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spbMotorDis">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>99999999</number>
+    </property>
+    <property name="value">
+     <number>200</number>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

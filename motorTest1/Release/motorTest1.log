@@ -1,0 +1,137 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (motorTest1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Moc'ing frmMainWidget.h...
+  Moc'ing frmReadFormula.h...
+  Moc'ing frmSelfTest.h...
+  Moc'ing frmPrepareDrug.h...
+  Moc'ing frmDispenseProcess.h...
+  Moc'ing frmDispenseFinish.h...
+  Moc'ing frmRecipeSetting.h...
+  Moc'ing frmSystemSetting.h...
+  Moc'ing GlobalParam.h...
+  Moc'ing MotorManager.h...
+  Moc'ing frmSystemParamSetting.h...
+  Moc'ing CFormulaParam.h...
+  Moc'ing frmAccountManager.h...
+  Moc'ing FormulaManager.h...
+  Moc'ing frmFormulaSetting.h...
+  Moc'ing frmWorkLog.h...
+  Moc'ing motofun.h...
+  Moc'ing mythread.h...
+  Moc'ing motorTest1.h...
+  Moc'ing UserManager.h...
+  Moc'ing User.h...
+  Moc'ing TestForm1.h...
+  Moc'ing App.h...
+  Moc'ing frmLogin.h...
+  Moc'ing AppInit.h...
+  Moc'ing FsmState2.h...
+  Moc'ing ComHelper.h...
+  Moc'ing ForceSensorModule.h...
+  Moc'ing cthermometer.h...
+  Moc'ing MyHelp.h...
+  App.cpp
+  AppInit.cpp
+  CFormulaParam.cpp
+  ComHelper.cpp
+  cthermometer.cpp
+  dbconnection.cpp
+  ForceSensorModule.cpp
+  FormulaManager.cpp
+cthermometer.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 cthermometer.cpp)
+ForceSensorModule.cpp(67): warning C4838: 从“int”转换到“char”需要收缩转换
+ForceSensorModule.cpp(70): warning C4838: 从“int”转换到“char”需要收缩转换
+ForceSensorModule.cpp(218): warning C4838: 从“int”转换到“char”需要收缩转换
+  frmAccountManager.cpp
+  frmDispenseFinish.cpp
+  frmDispenseProcess.cpp
+  frmFormulaSetting.cpp
+  frmLogin.cpp
+  frmMainWidget.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 dbconnection.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 FormulaManager.cpp)
+  frmPrepareDrug.cpp
+  frmReadFormula.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmDispenseProcess.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmMainWidget.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmAccountManager.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmFormulaSetting.cpp)
+  frmRecipeSetting.cpp
+  frmSelfTest.cpp
+  frmSystemParamSetting.cpp
+  frmSystemSetting.cpp
+  frmWorkLog.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmPrepareDrug.cpp)
+  fscommon.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmReadFormula.cpp)
+  FsmState2.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmSelfTest.cpp)
+  moc_CFormulaParam.cpp
+  moc_cthermometer.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\generatedfiles\release\../../cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Release\moc_cthermometer.cpp)
+  moc_FormulaManager.cpp
+  moc_frmAccountManager.cpp
+  moc_frmDispenseFinish.cpp
+  moc_frmDispenseProcess.cpp
+  moc_frmFormulaSetting.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmWorkLog.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 frmSystemParamSetting.cpp)
+  moc_frmMainWidget.cpp
+  moc_frmPrepareDrug.cpp
+  moc_frmReadFormula.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Release\moc_FormulaManager.cpp)
+  moc_frmRecipeSetting.cpp
+  moc_frmSelfTest.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Release\moc_frmDispenseProcess.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Release\moc_frmMainWidget.cpp)
+  moc_frmSystemParamSetting.cpp
+  moc_frmSystemSetting.cpp
+  moc_frmWorkLog.cpp
+  moc_GlobalParam.cpp
+  moc_motofun.cpp
+  moc_MotorManager.cpp
+  moc_mythread.cpp
+  GlobalParam.cpp
+  main.cpp
+  motofun.cpp
+  MotorManager.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Release\moc_GlobalParam.cpp)
+  motorTest1.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GlobalParam.cpp)
+  MyHelp.cpp
+  mythread.cpp
+GlobalParam.cpp(122): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+  SCLLibHelper.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 motofun.cpp)
+motorTest1.cpp(9): warning C4838: 从“int”转换到“char”需要收缩转换
+motorTest1.cpp(12): warning C4838: 从“int”转换到“char”需要收缩转换
+motofun.cpp(51): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+motorTest1.cpp(499): warning C4838: 从“int”转换到“char”需要收缩转换
+motorTest1.cpp(566): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+motorTest1.cpp(573): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+motorTest1.cpp(582): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+motorTest1.cpp(589): warning C4805: “==”: 在操作中将类型“BOOL”与类型“bool”混合不安全
+  TestForm1.cpp
+  User.cpp
+  UserManager.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 mythread.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 TestForm1.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 UserManager.cpp)
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\usermanager.cpp(99): warning C4700: 使用了未初始化的局部变量“ret”
+  qrc_motorTest1.cpp
+  moc_motorTest1.cpp
+  moc_UserManager.cpp
+  moc_User.cpp
+  moc_TestForm1.cpp
+  moc_App.cpp
+  moc_frmLogin.cpp
+  moc_AppInit.cpp
+  moc_FsmState2.cpp
+  moc_ComHelper.cpp
+  moc_ForceSensorModule.cpp
+  moc_cthermometer.cpp
+  moc_MyHelp.cpp
+e:\finalui_316latest_canuse_300ms_db_moreliandong\motortest1\generatedfiles\release\../../cthermometer.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Release\moc_cthermometer.cpp)
+Release\moc_cthermometer.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  motorTest1.vcxproj -> E:\finalUI_316latest_canuse_300ms_DB_moreliandong\Win32\Release\InjectionRobot.exe

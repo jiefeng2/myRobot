@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>frmSelfTest</class>
+ <widget class="QWidget" name="frmSelfTest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>315</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>frmSelfTest</string>
+  </property>
+  <widget class="QPushButton" name="btnStartSelfTest">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>自检</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnGoNext">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>260</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一步</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnGoBack">
+   <property name="geometry">
+    <rect>
+     <x>304</x>
+     <y>260</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOpenPort">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>50</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开串口</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>100</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
